@@ -49,7 +49,7 @@ class HomePage extends React.Component {
   createPost = async (e) => {
     e.preventDefault()
     const post = {
-      name : 'dzaky',
+      name : 'Anonymous',
       content : this.state.content,
       
     }
