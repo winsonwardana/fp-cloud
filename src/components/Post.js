@@ -29,20 +29,20 @@ class Post extends React.Component {
     return(
         <div>
           
-          <div className='row p-4' style={{backgroundColor:"#82B6D9",borderRadius: "10px",marginTop:"30px"}}>
+          <div className='p-5' style={{backgroundColor:"#c6dbda",borderRadius: "10px",marginTop:"30px"}}>
                    
             <div className='col-md-12' style={{textAlign:'left'}} > 
             
-            <h3>
-            <i className="fas fa-user" >
+            <h3 style={{fontFamily:"PoppinsSemiBold"}}>
+            <i className="fas fa-user" style={{marginRight:"20px"}}>
 
             </i>
               {this.props.post.name}
-          </h3>
+            </h3>
               
             </div>
             <div className='col-md-12 mt-3'> 
-            <p style={{fontSize:"20px"}}>
+            <p style={{fontSize:"20px",fontFamily:"PoppinsRegular"}}>
               {this.props.post.content}
             </p>
             </div>

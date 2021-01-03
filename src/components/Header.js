@@ -20,31 +20,10 @@ class Header extends React.Component {
   render(){
     return(
         <div>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{padding:"20px 400px"}}>
+          <nav className="navbar navbar-expand-lg navbar-light" style={{padding:"20px 400px",backgroundColor:"#c6dbda"}}>
             <div className="container-fluid">
-              <a className="navbar-brand" href="/">HOME</a>
-              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                </ul>
-                  {/* dropdown */}
-                  <div className="btn-group">
-                    
-                    {/* <button type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    
-                    </button> */}
-                    <i className="fas fa-user" data-bs-toggle="dropdown"></i>
-                    <ul className="dropdown-menu" style={{marginLeft:"-170px"}}>
-                      <li><a className="dropdown-item" href="/login">login</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li><a className="dropdown-item" href="#">Something else here</a></li>
-                      <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
-                  </div>
-              </div>
+              <a className="navbar-brand" href="/" style={{fontFamily:"PoppinsSemiBold"}}>HOME</a>
+
             </div>
           </nav>
                     

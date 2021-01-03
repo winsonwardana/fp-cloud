@@ -74,26 +74,26 @@ class HomePage extends React.Component {
           <Header/>
 
           <div className='row m-0'>
-            <div className='col-md-4' style={{paddingTop:"50px"}}>
-              
-              
-                          
+            <div className='col-md-3' style={{paddingTop:"50px",}}>
+                                        
               
             </div> 
           
 
 
-          <div className='col-md-4 mt-5 p-0'>
+          <div className='col-md-6 mt-5 p-0'>
             <form onSubmit={this.createPost}> 
             
             <div className="row m-0">
               
-              <h1>  Forum</h1>
+            <div className="col-md-12 p-0" >
+              <h1 style={{padding:"0px   !important",fontFamily:"PoppinsSemiBold"}}>Tempat Curhat</h1>
+            </div>
                 <div className="col-md-10 mt-2 p-0" >
                   <input className="form-control me-2" type="search" placeholder="Text" aria-label="Search" onChange={this.onChange} name="content"/>
                 </div>
                 <div className="col-md-2 mt-2">
-                  <button type="submit" class="btn btn-success">Post</button>
+                  <button type="submit" class="btn btn-success w-100" style={{float:"right",fontFamily:"PoppinsRegular"}}>Post</button>
 
                 </div> 
             </div>
@@ -114,7 +114,7 @@ class HomePage extends React.Component {
 
 
             </div>
-            <div className='col-md-4'>
+            <div className='col-md-3'>
               
               
 
