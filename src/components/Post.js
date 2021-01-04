@@ -19,7 +19,7 @@ class Post extends React.Component {
       headers: data
      })
 
-     window.location.reload(true)
+     window.location.href = '/'
 
 }
 
