@@ -87,7 +87,7 @@ class HomePage extends React.Component {
             <div className="row m-0">
               
             <div className="col-md-12 p-0" >
-              <h1 style={{padding:"0px   !important",fontFamily:"PoppinsSemiBold"}}>Tempat Curhat</h1>
+              <h1 style={{padding:"0px   !important",fontFamily:"PoppinsSemiBold"}}>Forum</h1>
             </div>
                 <div className="col-md-10 mt-2 p-0" >
                   <input className="form-control me-2" type="search" placeholder="Text" aria-label="Search" onChange={this.onChange} name="content"/>
